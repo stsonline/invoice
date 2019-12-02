@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+
+input {
+	width: 180px;
+	border: 2px solid #CACACA;
+	padding: 5px 8px;
+}
+
+select {
+	border: 2px solid #CACACA;
+	padding: 5px 0px;
+}
+
+#invoice-history {
+	font-size: 14px;
+	float: left;
+	margin: 30px auto;
+	border-bottom: 3px solid #F88148;
+}
+
+#invoice-history a {
+	color: #70a3e1;
+}
+
+#invoice-history th {
+	border-bottom: 3px solid #F88148;
+}
+
+#invoice-history tr {
+	height: 40px;
+}
+
+#invoice-history .odd {
+	background-color: #eee;
+}
+
+.invoice-no {
+	text-align: center;
+	font-weight: 700;
+}
+
+.invoice-pdf {
+	text-align: center;	
+}
+
+.invoice-total {
+	text-align: center;
+}
+
+.invoice-date {
+	text-align: center;	
+}
+
+
+
+
+
+
+
+
+
+
+

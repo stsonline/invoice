@@ -1,0 +1,229 @@
+@CHARSET "ISO-8859-1";
+
+#top-menu ul {
+	/*background: #e5e5e5 url(../img/menu-list.png) repeat-x;*/
+	list-style-type: none;
+	margin: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 60px;
+	padding-left: 16px;
+}
+
+#top-menu ul li {
+	float: left;
+	display: block;
+	text-align: center;
+	position: relative;
+	border: none;
+	margin-right: 25px;
+	bottom: 0px;
+}
+
+#top-menu ul li.parent:hover a {
+	color: #4f4e4e;
+}
+
+#top-menu ul li:hover {
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+#top-menu ul li {
+	height: 41px;
+}
+
+#login-info {
+	background-color: white;
+	color: #003d4c;
+	padding: 26px 10px 19px 10px;
+	background: url('../img/header.png') repeat-x top;
+}
+
+#login-info a {
+	color: #f9f9f9;
+}
+
+#login-info a:hover {
+	text-decoration: underline;
+}
+
+#login-info p {
+	color: #ffffff;
+	position: relative;
+	top: 14px;
+}
+
+#campaigns-content textarea {
+	font-size: 90%;
+}
+
+#nav-bar {
+	height: 36px;
+	background: #aaa;
+	color: #fff;
+	text-shadow: 1px 1px #888;
+	z-index: 1000;
+}
+
+#client-details {
+	width: 40%;
+	padding: 10px;
+	margin: 15px;
+	background: #efefef;
+}
+
+#client-details h1,h2,h3 {
+	background: #efefef;
+}
+
+.menu a {
+	float: left;
+	color: #eee;
+	text-decoration: none;
+	width: 120px;
+	height: 28px;
+	padding-top: 8px;
+}
+
+.menu span {
+	float: left;
+	color: #eee;
+	text-decoration: none;
+	width: 120px;
+	height: 28px;
+	padding-top: 8px;
+}
+
+.menu a:hover {
+	color: #fff;
+}
+
+.menu {
+	list-style: none;
+	font: 16px Arial, Verdana;
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.menu li {
+	position: relative;
+	float: left;
+	width: 120px;
+	z-index: 9999;
+}
+
+.menu ul {
+	display: none;
+	position: absolute;
+	font: normal 13px Arial, Verdana;
+	top: 36px;
+	left: 0;
+	background: #aaa;
+	display: none;
+	list-style: none;
+}
+
+.menu ul li {
+	float: none;
+	border-top: 1px solid #ccc;
+	width: 120px;
+}
+
+.menu ul li a,li.menuhover li a,li.menuhover li.menuhover li a {
+	float: none;
+	display: block;
+	background: none;
+	height: 22px;
+	padding-top: 5px;
+}
+
+.menu ul li a:hover,li.menuhover li a:hover,li.menuhover li.menuhover li a:hover {
+	background: #999;
+	color: #fff;
+}
+
+.menu ul li span,li.menuhover li span,li.menuhover li.menuhover li span {
+	float: none;
+	display: block;
+	background: none;
+	height: 22px;
+	padding-top: 5px;
+}
+
+.menu ul ul {
+	left: 120px;
+	top: 0;
+}
+
+.final-reminder {
+	background: #ffdddd;
+}
+
+.reminder-choice {
+	padding-bottom: 15px;
+}
+
+.reminder-choice:hover {
+	background-color: lightblue;
+}
+
+.login-form {
+	width: 500px!important;
+	background-color: #BDBDBD!important;
+}
+
+#model-editor-table-container table tr td, #model-editor-table-container table tr td a {
+	max-width: 100px;
+	min-width: 25px;
+	word-break: break-all;
+	font-size: 0.7em;
+}
+
+#model-editor-table-container table tr th {
+	max-width: 100px;
+	min-width: 25px;
+	word-break: break-all;
+	font-size: 0.7em;
+	font-size: 0.6em;
+}
+
+.input textarea {
+	font-size: 0.8em;
+	font-family: courier;
+}
+
+#line-items input {
+	font-size: 85%;
+	padding: 6px 0;	
+}
+
+div.invoices {
+	width: 94%;
+	border: 0 none;
+}
+
+#InvoiceAddForm .line-item-date, #InvoiceAddForm .line-item-support, #InvoiceAddForm .line-item-amount, #InvoiceAddForm .line-item-client-amount {
+	width: 90px;
+}
+
+#InvoiceAddForm .line-item-desc {
+	width: 280px;
+}
+
+#add-item {
+	display: inline;
+}
+
+.invoice-total {
+	font-size: 120%;
+	color: #000000;
+}
+
+#InvoiceScheduleFor, #InvoicePeriod {
+	width: 50%;
+}

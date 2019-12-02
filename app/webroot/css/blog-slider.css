@@ -1,0 +1,70 @@
+/* Index blog slider */
+
+.blog-banner {
+    padding: 50px 0;
+}
+
+.index-blog-wrap {
+    text-align: center;
+}
+
+.index-blog-wrap {
+    padding: 45px 35px;
+    background: #eee;
+    margin: 0 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.index-blog-wrap h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #777;
+}
+
+.index-blog-wrap h3 .fa {
+    padding-right: 8px;
+}
+
+.index-blog-wrap h2 {
+    color: #479CCF;
+    font-family: 'Arvo', serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.index-blog-wrap p {
+    line-height: 1.45em;
+    font-size: 17px;
+    margin: 15px 0;
+    padding: 0 100px;
+}
+
+#owl-example .owl-prev,
+#owl-example .owl-next {
+    background: none;
+    color: #479CCF;
+    font-size: 18px;
+    border-radius: 0;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#owl-example .owl-prev:hover,
+#owl-example .owl-next:hover {
+    color: #777;
+}
+
+.blog-title {
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    text-align: center;
+    color: #202020;
+    margin-bottom: 25px;
+}
+
+/* /Index blog slider */

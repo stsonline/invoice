@@ -1,0 +1,27 @@
+#menu li {
+	float: left;
+}
+
+#header {
+	background: none;
+}
+
+#banner {
+	background: none;
+}
+
+#banner-slider .indicator ul li {
+	float: left;
+}
+
+#banner-slider .previous-button {
+	background: url(app/webroot/img/portofolio-slider-left_ie6.png) no-repeat left top;
+}
+
+#banner-slider .next-button {
+	background: url(app/webroot/img/portofolio-slider-right_ie6.png) no-repeat left top;
+}
+
+#banner-slider {
+	background: url(app/webroot/img/banner-slider-bg_ie6.png) no-repeat left top;
+}

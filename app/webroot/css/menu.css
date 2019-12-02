@@ -1,0 +1,140 @@
+@CHARSET "ISO-8859-1";
+
+.dashboard {
+	background: url('../img/home.png') no-repeat scroll 21px 12px;
+	width: 58px;
+	height: 40px;
+	position: relative;
+	top: 0px;
+	left: 8px;
+}
+
+.dashboard:hover {
+	background: url('../img/home-hover.png') no-repeat scroll 21px 12px;
+	position: relative;
+	top: 0px;
+	left: 8px;
+}
+
+#top-menu a {
+	font-weight: normal;
+}
+
+#top-menu ul li img {
+	position: relative;
+	top: 13px;
+}
+
+#top-menu ul.child {
+	padding: 0px;
+	top: 40px;
+	left: 0px
+}
+
+#top-menu ul.child li {
+	border: 1px solid #e5e5e5;
+}
+
+#top-menu li {
+	margin: 0px;
+	display: block;
+}
+
+ul.child {
+	display: none;
+}
+
+#top-menu li {
+	display: inline;
+}
+
+#top-menu li ul li {
+	list-style: none;
+	background: #fff;
+	border-color: #e0e0e0 #d4d4d4 #bbb;
+	/*box-shadow: 0 4px 15px rgba(0,0,0,0.25);*/
+}
+
+#top-menu li ul li:hover {
+	background-color: #e5e5e5;
+}
+
+#top-menu li ul li.bottom {
+	/*border-bottom: 1px solid #e5e5e5;*/
+}
+
+#top-menu li.bottom li a:link,#top-menu li.bottom li a:active,#top-menu li.bottom li a:visited
+	{
+	display: block;
+	padding: 0px 5px;
+	text-decoration: none;
+}
+
+#top-menu li.bottom li {
+	float: left;
+	position: relative;
+}
+
+#top-menu li.bottom ul {
+	position: absolute;
+	width: 230px;
+	top: 1.5em;
+	display: none;
+}
+
+#top-menu li.bottom li ul a {
+	width: 230px;
+	float: left;
+}
+
+#top-menu li.bottom ul li {
+	left: 156px;
+	margin: 0px 0px 0px 58px;
+	bottom: 25px;
+	/*border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;*/
+}
+
+#top-menu li.bottom:hover ul,#top-menu li.bottom li li:hover ul,#top-menu li.bottom li li li:hover ul,#top-menu li.bottom li li li li:hover ul
+	{
+	display: block;
+}
+
+#top-menu li ul li a {
+	color: #4f4e4e;
+	width: 230px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	left: 41px;
+	top: 12px;
+}
+
+#top-menu li ul li.bottom a {
+	left: 33px;
+}
+
+#top-menu li ul li ul {
+	color: #000;
+}
+
+#top-menu li ul li {
+	background: url('../img/arrow.png') #fff no-repeat;
+	background-position: 10px 12px;
+}
+
+#top-menu li.bottom img {
+	position: relative;
+	left: 182px;
+	top: 2px;
+}
+
+#top-menu ul li a {
+	display: block;
+	padding: 11px 20px 9px 20px;
+}
+
+.invoice-table {
+	padding: 0;
+}

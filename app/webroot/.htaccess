@@ -1,0 +1,121 @@
+Redirect 301 /seo /services/search-marketing
+
+Redirect 301 /hosting /services/hosting
+
+Redirect 301 /customsoftware /services/app-development
+
+Redirect 301 /ecommerce-wales /services/ecommerce
+
+Redirect 301 /ecommerce-cardiff /services/ecommerce
+
+Redirect 301 /web-design-wales /services/web-design
+
+Redirect 301 /custom-software-wales /services/app-development
+
+Redirect 301 /custom-ecommerce-wales /services/ecommerce
+
+Redirect 301 /web-development-wales /services/web-design
+
+Redirect 301 /web-development-cardiff /services/web-design
+
+Redirect 301 /web-hosting-uk /services/hosting
+
+Redirect 301 /custom-ecommerce-cardiff /services/ecommerce
+
+Redirect 301 /shopping-cart-software /services/ecommerce
+
+Redirect 301 /showcase/bespoke-hosting /services/hosting
+
+Redirect 301 /showcase/m2server /our-work
+
+Redirect 301 /showcase/acai-berry-max /our-work
+
+Redirect 301 /showcase/the-olive-press /workshop/olive-press
+
+Redirect 301 /showcase/twist-job-portal /our-work
+
+Redirect 301 /showcase/vitachef /our-work
+
+Redirect 301 /showcase/life-in-hifi /workshop/life-in-hifi
+
+Redirect 301 /showcase/my-personal-postcard-app /workshop/my-personal-postcard
+
+Redirect 301 /showcase/sales-affiliates /our-work
+
+Redirect 301 /showcase/bughat /workshop/bughat
+
+Redirect 301 /showcase/only-tactical-gear /workshop/only-stores
+
+Redirect 301 /showcase/finance-list-management /our-work
+
+Redirect 301 /page/ecommerce-wales /services/ecommerce
+
+Redirect 301 /page/ecommerce-cardiff /services/ecommerce
+
+Redirect 301 /page/web-design-wales /services/web-design
+
+Redirect 301 /page/custom-software-wales /what-we-do
+
+Redirect 301 /page/custom-ecommerce-wales /services/ecommerce
+
+Redirect 301 /page/web-development-wales /services/web-design
+
+Redirect 301 /page/web-development-cardiff /services/web-design
+
+Redirect 301 /page/web-hosting-uk /services/hosting
+
+Redirect 301 /page/custom-ecommerce-cardiff /services/ecommerce
+
+Redirect 301 /page/shopping-cart-software /services/ecommerce
+
+Redirect 301 /contact/send /get-in-touch
+
+Redirect 301 /contact /get-in-touch
+
+Redirect 301 /jobs /index
+
+Redirect 301 /news /index
+
+Redirect 301 /products /what-we-do
+
+Redirect 301 /products/datadynamo /what-we-do
+
+Redirect 301 /products/m2server /what-we-do
+
+Redirect 301 /products/leadexchange /what-we-do
+
+Redirect 301 /products/leadtraderpro /what-we-do
+
+Redirect 301 /products/icingcms /what-we-do
+
+Redirect 301 /products/cartcompare /what-we-do
+
+Redirect 301 /products/leadcompare /what-we-do
+
+Redirect 301 /products/package1 /what-we-do
+
+Redirect 301 /products/package2 /what-we-do
+
+Redirect 301 /projects /our-work
+
+Redirect 301 /projects/view /our-work
+
+Redirect 301 /showcase /our-work
+
+Redirect 301 /showcase/view /our-work
+
+Redirect 301 /terms /index
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    #RewriteBase /
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ http://%1/$1 [R=301,QSA,L]
+    RewriteCond %{HTTPS} on
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [R=301,QSA,L]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

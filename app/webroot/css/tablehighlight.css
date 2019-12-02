@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+#invoice-table tr.even  {
+	background-color: #ffffff;
+}
+#invoice-table tr.odd {
+	background-color: #f9f9ff;
+}
+#invoice-table tbody tr.even:hover, #invoice-table tbody tr.even td.highlighted {
+	background-color: #ECFFEC;
+}
+
+#invoice-table tbody tr.odd:hover, #invoice-table tbody tr.odd td.highlighted {
+	background-color: #E6FFE6;
+}
+
+#invoice-table tr.even:hover {
+	background-color: #ECFFEC;
+}
+
+#invoice-table tr.even:hover td.sorting_1 {
+	background-color: #DDFFDD;
+}
+
+#invoice-table tr.even:hover td.sorting_2 {
+	background-color: #E7FFE7;
+}
+
+#invoice-table tr.even:hover td.sorting_3 {
+	background-color: #E2FFE2;
+}
+
+#invoice-table tr.odd:hover {
+	background-color: #E6FFE6;
+}
+
+#invoice-table tr.odd:hover td.sorting_1 {
+	background-color: #D6FFD6;
+}
+
+#invoice-table tr.odd:hover td.sorting_2 {
+	background-color: #E0FFE0;
+}
+
+#invoice-table tr.odd:hover td.sorting_3 {
+	background-color: #DBFFDB;
+}
+
+#invoice-table tr.even.DTTT_selected td {
+    background-color: #cccccc;
+}
+#invoice-table tr.odd.DTTT_selected td {
+    background-color: #cccccc;
+}

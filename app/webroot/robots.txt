@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://team8digital.uk/sitemap.xml
